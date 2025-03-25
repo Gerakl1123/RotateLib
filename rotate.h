@@ -14,7 +14,7 @@ using namespace std;
 class Rotate
 {
 public:
-	Rotate(int r, int c, int random) : rows(r), cols(c), random_num(random), v(r, vector<int>(cols)) {
+	Rotate(int r, int c, int random) : rows(r), cols(c), random_num(random), v(r, vector<int>(c)) {
 		for (auto& row : v)
 		{
 			for (auto& col : row) {
